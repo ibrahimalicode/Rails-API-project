@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+GET /api/users → Alice, Bob, Carol
 
-Things you may want to cover:
+GET /api/courses → Ruby on Rails, JavaScript Basics
 
-* Ruby version
+GET /api/courses/:id/lessons → lessons for that course
 
-* System dependencies
+GET /api/courses/:id/assignments → assignments for that course
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+GET /api/enrollments → all enrollments
